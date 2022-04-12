@@ -215,7 +215,7 @@
     width: 180px;
     height: 1px;
     border: 1px solid #C8C8C8;
-    color: #C8C8C8;
+    background-color: #C8C8C8;
 }
 /* sohib */
 /* salohiddin */
@@ -589,12 +589,9 @@ form{
         display: flex;
         justify-content: space-between;
     }
-    .nav-btn__icons, .nab-btn{
-        display: none;
-    }
-    .fa-bars{
-        display: flex;
-        color: #EB242A
+    .nav-btn__icons {
+        position: absolute;
+        left: 564px;
     }
     .site-hero__text{
         text-align: center;
@@ -793,6 +790,56 @@ form{
     .container-heading {
         width: 300px;
     }
+    /* header */
+    .nav-logo {
+        width: 100px;
+        height: 18px;
+    }
+    .site-header__logo {
+        width: 100px;
+        height: 18px;
+    }
+    .site-hero__title{
+        text-align: left;
+        margin-left: 0;
+        width: 249px;
+        margin-bottom: -35px;
+        font-size: 39.5238px;
+        line-height: 48px;
+    }
+    .site-hero__text{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .site-hero__btn--link{
+        width: 146px;
+        height: 53px;
+        padding: 15px 25px;
+        font-size: 19.3498px;
+        line-height: 23px;
+
+    }
+    .site-hero__btn--list1, .site-hero__btn--list2{
+        font-size: 15.2743px;
+        line-height: 21px;
+        margin-bottom: 0;
+    }
+    .site-hero__btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .site-hero__subtitle{
+        text-align: left;
+        width: 299px;
+        font-size: 12px;
+        line-height: 17px;
+        margin-left: 0;
+    }
+    .site-hero__bg{
+    }
+    /* header */
     .section-head {
         margin: 0 auto;
         width: 299px;
